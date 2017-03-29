@@ -2,6 +2,20 @@
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
 
+
+## PLAN
+
+transcribe previous app ideas into different components.
+
+get them to where they are working one by one.
+
+learn routing to integrate them.
+
+develop notabtion for kapstone project.
+
+integrate with tutor-board. 
+
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 

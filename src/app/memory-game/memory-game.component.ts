@@ -41,8 +41,9 @@ var shuffleCards = function() {
   var shuffleArr= [{},{},{},{},{},{}];
 
   var count = 0;
-  while (indexArr.length<6) {
 
+  // pics a random index and if index is not already picked splices card to that index.
+  while (indexArr.length<6) {
     var new_number= Math.floor(Math.random() * 6);
     if (!(indexArr.includes(new_number))) {
       indexArr.push(new_number);
@@ -51,11 +52,9 @@ var shuffleCards = function() {
     }
   }
 
+  // TODO not yet tested !!! 
   console.log("shuffleArr " + shuffleArr);
-  var resultArr = [];
-  for (let i = 0; i < 6; i++) {
-    resultArr.push(new Card(shuffleArr[i].content, shuffleArr[i].imgUrl))
-  }
+
 }
 export class MemoryGameComponent {
 

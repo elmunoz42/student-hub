@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { TriviaComponent } from './trivia/trivia.component';
 import { GetTriviaService } from './get-trivia.service';
 import { MemoryGameComponent } from './memory-game/memory-game.component';
+import { NewsComponent } from './news/news.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TriviaComponent,
-    MemoryGameComponent
+    MemoryGameComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,
