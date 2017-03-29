@@ -4,17 +4,22 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { TriviaComponent } from './trivia/trivia.component';
+import { GetTriviaService } from './get-trivia.service';
+import { MemoryGameComponent } from './memory-game/memory-game.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TriviaComponent,
+    MemoryGameComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [GetTriviaService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

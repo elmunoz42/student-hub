@@ -1,0 +1,21 @@
+{
+  "name": "student-hub",
+  "description": "App for music/tutoring students with news, games and academics.",
+  "main": "",
+  "authors": [
+    "Carlos Munoz Kampff <elmunoz42@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
