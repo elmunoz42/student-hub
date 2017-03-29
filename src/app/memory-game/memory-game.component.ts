@@ -45,6 +45,8 @@ var shuffleCards = function() {
   // pics a random index and if index is not already picked splices card to that index.
   while (indexArr.length<6) {
     var new_number= Math.floor(Math.random() * 6);
+    
+    // NOTE not sure if this is really an issue ?
     if (!(indexArr.includes(new_number))) {
       indexArr.push(new_number);
       shuffleArr.splice(new_number, 1, contentArr[count]);
@@ -52,7 +54,7 @@ var shuffleCards = function() {
     }
   }
 
-  // TODO not yet tested !!! 
+  // TODO not yet tested !!!
   console.log("shuffleArr " + shuffleArr);
 
 }
